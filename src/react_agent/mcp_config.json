@@ -1,0 +1,27 @@
+{
+    
+    "mcpServers":{
+
+                "math": {
+                    "command": "python",
+                    "args": ["./tests/servers/math_server.py"],
+                    "transport": "stdio"
+                },
+                "weather": {
+                    "command": "python",
+                    "args": ["./tests/servers/weather_server.py"],
+                    "transport": "stdio"
+                },
+                "epi-crawl": {
+                    "command": "python",
+                    "args": ["./mcp_servers/my_mcp_tools/epi-crawl.py"],
+                    "transport": "stdio"
+                },
+                "websearch": {
+                    "command": "python",
+                    "args": ["./mcp_servers/websearch/websearch.py"],
+                    "transport": "stdio"                    
+                }
+            
+    }
+}

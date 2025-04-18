@@ -1,3 +1,25 @@
+Metadata-Version: 2.4
+Name: react-agent
+Version: 0.0.1
+Summary: Starter template for making a custom Reasoning and Action agent (using tool calling) in LangGraph.
+Author-email: William Fu-Hinthorn <13333726+hinthornw@users.noreply.github.com>
+License: MIT
+Requires-Python: <4.0,>=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: langgraph>=0.2.6
+Requires-Dist: langchain-openai>=0.1.22
+Requires-Dist: langchain-anthropic>=0.1.23
+Requires-Dist: langchain>=0.2.14
+Requires-Dist: langchain-fireworks>=0.1.7
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: langchain-community>=0.2.17
+Requires-Dist: tavily-python>=0.4.0
+Provides-Extra: dev
+Requires-Dist: mypy>=1.11.1; extra == "dev"
+Requires-Dist: ruff>=0.6.1; extra == "dev"
+Dynamic: license-file
+
 # LangGraph ReAct Agent Template
 
 [![CI](https://github.com/langchain-ai/react-agent/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/langchain-ai/react-agent/actions/workflows/unit-tests.yml)
